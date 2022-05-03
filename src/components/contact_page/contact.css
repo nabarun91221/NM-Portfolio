@@ -1,0 +1,152 @@
+.contact_background {
+  height: 100%;
+  width: 100%;
+  background-color: #00000085;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  z-index: 4;
+  transition-duration: 0.4s;
+  overflow: scroll;
+}
+.cut {
+  height: 1.4rem;
+  width: 1.45rem;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: 2%;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 5%;
+  background-color: rgba(255, 0, 55, 0.582);
+  border-radius: 50%;
+  color: rgba(255, 0, 55, 0);
+}
+.cut:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 55, 0.692);
+  color: whitesmoke;
+}
+.contact_container {
+  width: 60%;
+  max-height: fit-content;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(245, 245, 245, 0.9);
+}
+.eInput {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 80%;
+  height: fit-content;
+  padding: auto;
+  margin: auto;
+  padding-left: 2%;
+}
+
+.u {
+  height: 3rem;
+  width: 80%;
+  margin: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: none;
+  border-radius: 5px;
+  background-color: #4218fd46;
+  color: white;
+  font-size: 100%;
+}
+.u_div {
+  display: flex;
+  padding-left: 2%;
+  margin-left: 2.5%;
+}
+.l_div {
+  margin-top: 3%;
+}
+.l {
+  height: 10rem;
+  width: 85%;
+  margin: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: #4218fd1f;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 15px;
+}
+.btn {
+  font-size: 100%;
+  height: 5vh;
+  width: 20%;
+  margin: 1%;
+  padding-top: 0%;
+}
+@media screen and (max-width: 880px) {
+  .contact_container {
+    width: 90%;
+    max-height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .eInput {
+    flex-direction: row;
+    justify-content: center;
+  }
+  label {
+    padding-top: 3%;
+  }
+  .u_div {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0%;
+    margin: 0px;
+  }
+  .u {
+    width: 100%;
+    flex-direction: row;
+  }
+  .l {
+    height: 15rem;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact_container {
+    width: 90%;
+    max-height: fit-content;
+  }
+  .eInput {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .u_div {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0%;
+    margin: 0px;
+  }
+  .u {
+    width: 100%;
+    flex-direction: row;
+    margin-left: auto;
+  }
+  .l {
+    height: 15rem;
+    width: 90%;
+  }
+  .btn {
+    font-size: 100%;
+    height: 6vh;
+    width: 25%;
+    margin: 1%;
+    padding-top: 0%;
+  }
+}

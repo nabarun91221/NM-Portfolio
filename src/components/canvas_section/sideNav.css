@@ -1,0 +1,45 @@
+.sideNav {
+  display: none;
+  opacity: 0;
+}
+.cutOnNav {
+  margin-left: 70%;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.NMlogo {
+  margin: 3%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.NMlogo:hover {
+  color: #6c55e1;
+  cursor: pointer;
+}
+.side_navPageList:hover {
+  color: #6c55e1;
+  cursor: pointer;
+}
+.cutOnNav:hover {
+  color: rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .sideNav {
+    margin-left: 55%;
+    min-height: 100%;
+    min-width: 45%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    visibility: visible;
+    background-color: rgba(255, 255, 255, 0.411);
+    backdrop-filter: blur(5px);
+    z-index: 4;
+    font-size: 1.1rem;
+    font-weight: 60px;
+    color: rgba(0, 0, 0, 0.664);
+    border-radius: 2% 0px 0px 2%;
+  }
+}

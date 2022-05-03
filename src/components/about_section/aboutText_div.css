@@ -1,0 +1,68 @@
+.aboutText_div {
+  max-height: 50%;
+  max-width: 50%;
+  margin: auto;
+  margin-left: 2%;
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.abt_me {
+  font-size: 7vh;
+  font-weight: 900;
+}
+.des {
+  font-size: 3vh;
+  font-weight: 500;
+}
+.subDes {
+  font-size: 2vh;
+  font-weight: 100;
+}
+.socialDiv {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10%;
+}
+.soc {
+  height: 5vh;
+  width: 5vh;
+  margin: 1vh;
+  padding: 1%;
+}
+@media screen and (max-width: 825px) {
+  .soc {
+    margin: auto;
+    padding: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutText_div {
+    width: fit-content;
+    margin: auto;
+  }
+  .abt_me {
+    width: auto;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .des {
+    width: auto;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .subDes {
+    width: 100%;
+    color: rgb(145, 145, 145);
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}

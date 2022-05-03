@@ -1,0 +1,47 @@
+.mainDiv {
+  height: 30vh;
+  width: 50vh;
+  margin: none;
+  padding: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #dbd3fd75;
+  box-shadow: 1px 5px 22px rgba(0, 0, 0, 0.274);
+  /* box-shadow: -5px -5px 15px #afa6dfc0, 5px 5px 15px rgba(17, 17, 17, 0.4),
+    inset 5px 5px 10px #afa6dfc0, inset -5px -5px 15px rgba(17, 17, 17, 0.4); */
+  backdrop-filter: blur(2px);
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* .mainDiv:hover {
+  background-color: #dbd3fde0;
+  box-shadow: 1px 5px 22px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+} */
+.logoDiv {
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  padding-left: 3%;
+}
+.descriptionDiv {
+  height: 100%;
+  width: 70%;
+  padding: 3%;
+  padding-left: 7%;
+}
+@media screen and (max-width: 480px) {
+  .mainDiv {
+    height: 30vh;
+    width: 46vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mainDiv {
+    height: 30vh;
+    width: 100%;
+  }
+}

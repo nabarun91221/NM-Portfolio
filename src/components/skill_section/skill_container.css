@@ -1,0 +1,27 @@
+.skill_container {
+  margin: 2%;
+  padding: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 10px;
+  min-height: 100vh;
+  max-width: 100%;
+  background: linear-gradient(90deg, white 23px, transparent 1%) center,
+    linear-gradient(white 23px, transparent 1%) center, #6c55e1;
+  background-size: 25px 25px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+  .skill_container {
+    width: 98%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .skill_container {
+    width: fit-content;
+  }
+}

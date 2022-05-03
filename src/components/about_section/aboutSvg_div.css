@@ -1,0 +1,12 @@
+.aboutSvg_div {
+  margin: auto;
+  max-height: 50%;
+  max-width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .aboutSvg_div {
+    display: none;
+  }
+}

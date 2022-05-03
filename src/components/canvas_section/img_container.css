@@ -1,0 +1,45 @@
+.img_container {
+  padding-top: 3%;
+  min-height: 93vh;
+  min-width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.img_background {
+  margin-top: 25%;
+  height: 22rem;
+  width: 24rem;
+  border-radius: 80% 30% 30% 80% / 60% 40% 60% 50%;
+  background-color: #8f79fd;
+}
+.img1 {
+  display: block;
+  margin-top: auto;
+  height: 22rem;
+  width: 24rem;
+  z-index: 2;
+  border-radius: 80% 30% 30% 80% / 60% 40% 60% 50%;
+  overflow: hidden;
+}
+.img2 {
+  height: 30rem;
+  width: 23rem;
+  margin-top: 0rem;
+  background-size: cover;
+  padding-left: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .img_container {
+    min-height: 50vh;
+    max-width: 100%;
+    padding: auto;
+    margin-top: none;
+    padding-bottom: 10vh;
+  }
+  .img_background {
+    margin: 10%;
+    margin-top: 15%;
+  }
+}

@@ -1,0 +1,67 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.leftSkillDiv {
+  height: 100vh;
+  width: fit-content;
+  margin: 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.rightSkillDiv {
+  height: 100vh;
+  width: 40%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.perent_leftSkillDiv {
+  height: auto;
+  width: auto;
+  display: flex;
+  direction: row;
+  margin-right: 2%;
+}
+.canvas_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 825px) {
+  .canvas_container {
+    flex-direction: column;
+  }
+  .rightSkillDiv {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .rightSkillDiv {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .perent_leftSkillDiv {
+    flex-direction: column;
+  }
+  .rightSkillDiv {
+    width: 99%;
+  }
+}
