@@ -7,11 +7,12 @@ import github from "../about_section/svg/socialLink/icons8-github.svg";
 export const AboutTextDiv = () => {
     return (
         <div className="aboutText_div">
-            <p1 className="abt_me">About Me</p1>
-            <p1 className="des"> I'm a Full-Stack Web Developer</p1>
-            <p1 className="subDes">I generally use M.E.R.N as my primary technology </p1>
-            <p1 className="subDes">but I also familiarize with Firebase and React Native</p1>
-            <p1 className="subDes">currently I'm in 2nd year of university, doing my computer sceince degree from HIT Kolkata.</p1>
+           
+                <p1 className="abt_me">About Me</p1>
+                <p1 className="des"> I'm a Full-Stack Web Developer</p1>
+             <div className="subDes">
+                {"I generally use M.E.R.N stack as my primary technology but I am also familiarised with React Native,Firebase,Git & Github. Currently, I'm in my 2nd year of university, doing my computer science degree from HIT Kolkata."}
+            </div>
             <div className="socialDiv">
                 <a href="https://www.facebook.com/nabarun.middya">
                     <img src={facebook} height="30vh" width="30vh" className="soc" alt="facebook"></img>

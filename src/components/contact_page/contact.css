@@ -90,6 +90,9 @@
   margin: 1%;
   padding-top: 0%;
 }
+#cmsg{
+  resize: none;
+}
 @media screen and (max-width: 880px) {
   .contact_container {
     width: 90%;

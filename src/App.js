@@ -20,6 +20,7 @@ import { AboutTextDiv } from './components/about_section/aboutText_div';
 import Contact from './components/contact_page/contact.js';
 import { useState, } from 'react';
 import axios from "axios";
+import { AnimateSharedLayout } from "framer-motion";
 
 function App() {
 
@@ -105,7 +106,7 @@ function App() {
         <AboutSvgDiv></AboutSvgDiv>
       </About>
 
-      
+      <AnimateSharedLayout>
       <Skill>
         <div className="perent_leftSkillDiv">
         <div className="leftSkillDiv">
@@ -123,7 +124,8 @@ function App() {
         <div className="rightSkillDiv">
           <GlassProgress></GlassProgress>
         </div>
-      </Skill>
+        </Skill>
+        </AnimateSharedLayout>
         
       </div>
   );

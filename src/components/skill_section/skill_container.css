@@ -14,7 +14,7 @@
   overflow-y: hidden;
   justify-content: space-around;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .skill_container {
     width: 98%;
     flex-direction: column;

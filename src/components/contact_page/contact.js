@@ -35,7 +35,7 @@ const Contact = ({ prmt_hndl, prmt_state, getInputs, setFirstname, setLastname, 
        </div>
           <div className="l_div">
             <label for="text">Write Your Messege..</label>
-         <textarea className="l" value={Msg} type="text" placeholder="Your massege goes here" onChange={setMsg}></textarea>
+         <textarea id="cmsg" className="l" value={Msg} type="text" placeholder="Your massege goes here" onChange={setMsg}></textarea>
            </div>
           <button className="btn" onClick={getInputs}>Submit</button>
            </form>

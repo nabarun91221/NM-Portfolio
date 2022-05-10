@@ -12,7 +12,7 @@ const Nav = ({navHandeler, navState}) => {
         <a href="#skill">
           <h4 className="pageList rightOne">Skills</h4>
         </a>
-         <a href="https://match-sequence.netlify.app">
+         <a href="https://NM-Projects.netlify.app">
           <h4 className="pageList rightOne">N.MProjects</h4>
         </a>
         <div className="manu" onClick={navHandeler}>

@@ -39,7 +39,7 @@
     width: 46vh;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .mainDiv {
     height: 30vh;
     width: 100%;

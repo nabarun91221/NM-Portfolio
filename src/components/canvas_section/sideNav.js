@@ -13,7 +13,7 @@ export const SideNav = ({navHandeler,navState}) => {
         <a href="#skill" onClick={navHandeler}>
           <h4 className="side_navPageList">Skills</h4>
         </a>
-         <a href="https://match-sequence.netlify.app">
+         <a href="https://NM-Projects.netlify.app">
           <h4 className="side_navPageList">N.MProjects</h4>
         </a>
         </motion.div>

@@ -1,5 +1,5 @@
 .img_container {
-  padding-top: 3%;
+  padding-top: 4%;
   min-height: 93vh;
   min-width: 50%;
   display: flex;
@@ -25,10 +25,9 @@
 }
 .img2 {
   height: 30rem;
-  width: 23rem;
+  width: 24rem;
   margin-top: 0rem;
   background-size: cover;
-  padding-left: 1rem;
 }
 @media screen and (max-width: 800px) {
   .img_container {

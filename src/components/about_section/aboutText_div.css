@@ -20,6 +20,11 @@
 .subDes {
   font-size: 2vh;
   font-weight: 100;
+  display: flex;
+    text-align: center;
+    padding-top: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .socialDiv {
   margin: auto;
@@ -38,6 +43,7 @@
   margin: 1vh;
   padding: 1%;
 }
+
 @media screen and (max-width: 825px) {
   .soc {
     margin: auto;
