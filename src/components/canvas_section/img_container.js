@@ -12,10 +12,12 @@ const ImgContainer = () => {
     return (
         <div className="img_container">
         <motion.div animate={{opacity:[0,0.5,1],x:[-800,0],scale:[0.5,1],rotate:[0,360]}} transition={{duration:1}} className="img_background">
-                <motion.div animate={{ opacity: [0,0,1], y: [15, 0] }} transition={{delay:0.7, duration:0.8}} className="img1" onHoverStart={onHover} onHoverEnd={onHover} >
+                <motion.div  className="img1" onHoverStart={onHover} onHoverEnd={onHover} >
                     <motion.img className="img2" src={
                         isHoverStart?f1:f2
-                    } alt="Auother picture" height="30rem" width="23rem" ></motion.img>
+                    } alt="Auother picture" height="30rem" width="23rem"
+                        animate={{ opacity: [0,0,1], y: [15, 0] }} transition={{delay:0.72, duration:0.8}}
+                    ></motion.img>
                 </motion.div>
         </motion.div>
         </div>
