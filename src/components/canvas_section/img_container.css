@@ -13,6 +13,9 @@
   width: 24rem;
   border-radius: 80% 30% 30% 80% / 60% 40% 60% 50%;
 }
+.img_background:hover{
+  border-radius: 50%
+}
 .img1 {
   display: block;
   margin-top: auto;
@@ -36,6 +39,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
   width: 24rem;
   margin-top: 0rem;
   background-size: cover;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {

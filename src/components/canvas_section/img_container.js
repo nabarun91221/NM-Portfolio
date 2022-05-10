@@ -16,7 +16,7 @@ const ImgContainer = () => {
                     <motion.img className="img2" src={
                         isHoverStart?f1:f2
                     } alt="Auother picture" height="30rem" width="23rem"
-                        animate={{ opacity: [0,0,1], y: [15, 0] }} transition={{delay:0.72, duration:0.8}}
+                        animate={{ opacity: [0, 0, 0.5, 1], }} transition={{ delay: 0.72, duration: 0.8 }}
                     ></motion.img>
                 </motion.div>
         </motion.div>
