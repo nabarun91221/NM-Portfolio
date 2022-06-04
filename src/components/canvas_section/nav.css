@@ -8,7 +8,8 @@ nav {
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.171);
+  background-color: rgba(85, 87, 122, 0.539);
+  backdrop-filter: blur(5px);
   z-index: 3;
 }
 .manu {
@@ -17,41 +18,30 @@ nav {
 }
 .home:hover {
   cursor: pointer;
-    background: linear-gradient(to right,rgb(0, 148, 87) 30%,rgb(255, 183, 0) 70%);
+  background: linear-gradient(to right,rgb(0, 148, 87) 30%,rgb(255, 183, 0) 70%);
   transition: 0.5s;
   
 }
-.home:before {
+/* .home:before {
   visibility: visible;
   position: absolute;
   top: 0;
   left: 0;
   right: 96%;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));  backdrop-filter: blur(10px);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));  backdrop-filter: blur(10px);
   width: 10%;
   backdrop-filter: blur(10px);
   opacity: 0.8;
   height: 3.2rem;
   content: "";
-}
-/* .home:after {
-  visibility: visible;
-  position: absolute;
-  top: 0;
-  left: 0;
-  left: 96%;
-  width: 10px;
-  height: 3.2rem;
-  background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-  backdrop-filter: blur(10px);
-    opacity: 0.8;
-  content: "";
+  transition: 0.1s;
 } */
+
 .pageList:hover {
   color: white;
   cursor: pointer;
   background-color: #a390ff;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 5px 15px #6d4fff;
   transition-duration: 0.2s;
 }
@@ -62,12 +52,13 @@ h4 {
 .home {
   margin-right: 24%;
   margin-left: 9%;
+  padding:auto;
   padding-left: 2.2rem;
   padding-right: 2.2rem;
   font-size: 0.7rem;
   background: linear-gradient(to right, rgb(255, 183, 0)30%,rgb(0, 148, 87) 70%);
+  border-radius: 2px;
   position: relative;
-  transition: opacity 0.5s linear;
 }
 a {
   height: fit-content;
@@ -76,10 +67,10 @@ a {
   text-decoration: none;
 }
 .pageList{
-  padding: 0.4rem;
+  padding: 0.45rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  border-radius: 20px;
+  border-radius: 30px;
   transition-duration: 0.35s;
 }
 @media screen and (max-width: 480px) {
