@@ -4,7 +4,7 @@ const Nav = ({navHandeler, navState}) => {
     return (
       <motion.nav animate={navState ? { y: [0, -100] } : { y: [-100, 0] }}>
           <a className="home" href="/">
-          <h2>N.MCanvas</h2>
+          <h2>N.M Canvas</h2>
          </a>
         <a href="#about">
           <h4 className="pageList rightOne">About</h4>

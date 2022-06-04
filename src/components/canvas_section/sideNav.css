@@ -1,6 +1,7 @@
 .sideNav {
   display: none;
   opacity: 0;
+  padding-left: 10px;
 }
 .cutOnNav {
   margin-left: 70%;
@@ -8,8 +9,6 @@
   font-size: 1.5rem;
 }
 .NMlogo {
-  margin: 3%;
-  margin-left: 5%;
   margin-top: 10%;
 }
 .NMlogo:hover {
