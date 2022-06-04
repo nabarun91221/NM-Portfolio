@@ -17,7 +17,7 @@ nav {
 }
 .home:hover {
   cursor: pointer;
-    background: linear-gradient(to right,rgb(255, 183, 0) 30%,rgb(0, 148, 87) 70%);
+    background: linear-gradient(to right,rgb(0, 148, 87) 30%,rgb(255, 183, 0) 70%);
   transition: 0.5s;
   
 }
@@ -65,7 +65,7 @@ h4 {
   padding-left: 2.2rem;
   padding-right: 2.2rem;
   font-size: 0.7rem;
-  background: linear-gradient(to right, rgb(0, 148, 87) 30%,rgb(255, 183, 0) 70%);
+  background: linear-gradient(to right, rgb(255, 183, 0)30%,rgb(0, 148, 87) 70%);
   position: relative;
   transition: opacity 0.5s linear;
 }
