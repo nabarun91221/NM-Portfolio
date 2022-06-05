@@ -57,7 +57,7 @@ h4 {
   padding-right: 2.2rem;
   font-size: 0.7rem;
   background: linear-gradient(to right, rgb(255, 183, 0)30%,rgb(0, 148, 87) 70%);
-  border-radius: 2px;
+  border-radius: 10px;
   position: relative;
 }
 a {
