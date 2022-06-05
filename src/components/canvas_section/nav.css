@@ -1,7 +1,7 @@
 nav {
   height: 4.5rem;
   width: 100%;
-  color: azure;
+  color:#FFFFFF;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@ nav {
 }
 .home:hover {
   cursor: pointer;
-  background: linear-gradient(to right,rgb(0, 148, 87) 30%,rgb(255, 183, 0) 70%);
+  background: linear-gradient(to right,#138808 30%,#FF9933 70%);
   transition: 0.5s;
   
 }
@@ -52,11 +52,11 @@ h4 {
 .home {
   margin-right: 24%;
   margin-left: 9%;
-  padding:auto;
+  padding:0.1rem;
   padding-left: 2.2rem;
   padding-right: 2.2rem;
   font-size: 0.7rem;
-  background: linear-gradient(to right, rgb(255, 183, 0)30%,rgb(0, 148, 87) 70%);
+  background: linear-gradient(to right, #FF9933 30%,#138808 70%);
   border-radius: 10px;
   position: relative;
 }
